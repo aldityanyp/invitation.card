@@ -1,0 +1,60 @@
+/*ini untuk jombtron*/
+.jumbotron {
+	background-image: url(img/dipa.jpg);
+	background-size: cover;
+	height: 770px;
+	text-align: center;
+	margin-top: -210px;
+	position: relative;
+}
+
+.navbar{
+	position: sticky;
+	font-family: cursive;
+}
+.jumbotron .display-6 {
+color: white; 
+margin-top: 150px;
+text-align: center;
+
+}
+
+.jumbotron p {
+	color: white;
+	margin-top: 480px;
+	text-align: center;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+.jumbotron .btn {
+	background-color: #FF4DFC;
+	border: none;
+	border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+/* untuk membuat countdown*/
+.coming-soon {
+	font-size: 2rem;
+	font-weight: bold;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.countdown{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+	font-size: 3rem;
+}
